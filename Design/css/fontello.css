@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?21232331');
+  src: url('../fonts/fontello.eot?21232331#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?21232331') format('woff2'),
+       url('../fonts/fontello.woff?21232331') format('woff'),
+       url('../fonts/fontello.ttf?21232331') format('truetype'),
+       url('../fonts/fontello.svg?21232331#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?21232331#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+ 
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+ 
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-023-tooth-7:before { content: '\e800'; } /* '' */
+.icon-024-tooth-6:before { content: '\e801'; } /* '' */
+.icon-025-tooth-5:before { content: '\e802'; } /* '' */
+.icon-026-glass-of-water:before { content: '\e803'; } /* '' */
+.icon-027-water:before { content: '\e804'; } /* '' */
+.icon-028-mouthwash:before { content: '\e805'; } /* '' */
+.icon-029-medicine:before { content: '\e806'; } /* '' */
+.icon-030-braces:before { content: '\e807'; } /* '' */
+.icon-031-pills:before { content: '\e808'; } /* '' */
+.icon-032-anesthesia:before { content: '\e809'; } /* '' */
+.icon-033-apple:before { content: '\e80a'; } /* '' */
+.icon-034-hook:before { content: '\e80b'; } /* '' */
+.icon-035-lens:before { content: '\e80c'; } /* '' */
+.icon-036-tooth-4:before { content: '\e80d'; } /* '' */
+.icon-037-tooth-3:before { content: '\e80e'; } /* '' */
+.icon-038-tooth-2:before { content: '\e80f'; } /* '' */
+.icon-039-tooth-1:before { content: '\e810'; } /* '' */
+.icon-040-tooth:before { content: '\e811'; } /* '' */
+.icon-001-dentist:before { content: '\e812'; } /* '' */
+.icon-002-first-aid-kit:before { content: '\e813'; } /* '' */
+.icon-003-tooth-13:before { content: '\e814'; } /* '' */
+.icon-004-tooth-12:before { content: '\e815'; } /* '' */
+.icon-005-dental-floss-1:before { content: '\e816'; } /* '' */
+.icon-006-tooth-pliers:before { content: '\e817'; } /* '' */
+.icon-007-appointment:before { content: '\e818'; } /* '' */
+.icon-008-tooth-11:before { content: '\e819'; } /* '' */
+.icon-009-braces-1:before { content: '\e81a'; } /* '' */
+.icon-010-protection:before { content: '\e81b'; } /* '' */
+.icon-011-dental-care:before { content: '\e81c'; } /* '' */
+.icon-012-toothbrush-1:before { content: '\e81d'; } /* '' */
+.icon-013-dental-floss:before { content: '\e81e'; } /* '' */
+.icon-014-clipboard:before { content: '\e81f'; } /* '' */
+.icon-015-chair:before { content: '\e820'; } /* '' */
+.icon-016-tooth-10:before { content: '\e821'; } /* '' */
+.icon-017-tooth-9:before { content: '\e822'; } /* '' */
+.icon-018-mouth:before { content: '\e823'; } /* '' */
+.icon-019-dental-drill:before { content: '\e824'; } /* '' */
+.icon-020-toothbrush:before { content: '\e825'; } /* '' */
+.icon-021-toothpaste:before { content: '\e826'; } /* '' */
+.icon-022-tooth-8:before { content: '\e827'; } /* '' */
+.icon-location42:before { content: '\e828'; } /* '' */
+.icon-open210:before { content: '\e829'; } /* '' */
+.icon-phone351:before { content: '\e82a'; } /* '' */
+.icon-checked:before { content: '\e82b'; } /* '' */
